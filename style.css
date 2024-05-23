@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin-left: 20px;
+}
 .navbar{
     display: grid;
     grid-template-columns: auto auto;
@@ -33,6 +36,7 @@
     width: 40px;
     border-radius: 50%;
     margin-top: -20px;
+    
 }
 .banner{
     display: grid;
@@ -58,7 +62,7 @@
     color: #23252F;
 }
 .banner-text button{
-    margin-top: 4px;
+    margin-top: 12px;
     border: 0;
     border-radius: 10px;
     background: #4C7EFF;
