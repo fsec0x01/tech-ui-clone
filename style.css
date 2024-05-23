@@ -5,10 +5,12 @@
 .navbar{
     display: grid;
     grid-template-columns: auto auto;
+    margin-top: 24px;
 }
 .logox img{
      height: 32px;
      width: 140px;
+     
 }
 
 .menu ul{
@@ -20,17 +22,46 @@
 }
 .menu ul li a{
     text-decoration: none;
-     
+     color: #75767C;
+     padding: 20px;
+}
+.menu ul li a i{
+    color: #0F172A;
 }
 .menu ul li a img{
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    margin-top: -20px;
 }
 .banner{
     display: grid;
     grid-template-columns: auto auto;
+     
 }
 .banner-img img{
     float: right;
+}
+.banner-text{
+    margin-top: 100px;
+}
+.heading1{
+    color: #23252F;
+  font-weight: 900;
+  font-size: 56px;
+}
+.heading3{
+    color: #939399;
+    margin-bottom: 60px;
+}
+.paragraph{
+    color: #23252F;
+}
+.banner-text button{
+    margin-top: 4px;
+    border: 0;
+    border-radius: 10px;
+    background: #4C7EFF;
+    padding: 10px;
+    color: #E0E8FC;
 }
